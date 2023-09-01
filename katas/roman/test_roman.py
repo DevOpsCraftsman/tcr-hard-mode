@@ -6,4 +6,4 @@ class TestRoman(TestCase):
 
     def test_canary(self):
         self.assertTrue(True)
-
+        self.assertEquals(roman(0), "")
