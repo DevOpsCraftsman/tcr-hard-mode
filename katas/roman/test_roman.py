@@ -1,4 +1,6 @@
 from unittest import TestCase
 
 class TestRoman(TestCase):
-    pass
+
+    def test_canary(self):
+        pass
