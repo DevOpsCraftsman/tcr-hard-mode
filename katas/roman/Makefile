@@ -3,3 +3,6 @@ test:
 
 commit:
 	git commit -am "TCR"
+
+revert:
+	git restore .
