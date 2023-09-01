@@ -4,6 +4,5 @@ from roman import roman
 
 class TestRoman(TestCase):
 
-    def test_canary(self):
-        self.assertTrue(True)
+    def test_roman(self):
         self.assertEquals(roman(0), "")
