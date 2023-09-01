@@ -1,5 +1,5 @@
 TCR:
-	make test && make commit || make reverse
+	make test && make commit || make revert
 
 test:
 	python -m unittest
