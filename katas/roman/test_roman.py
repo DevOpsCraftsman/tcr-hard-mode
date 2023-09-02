@@ -9,3 +9,6 @@ class TestRoman(TestCase):
         self.assertEqual(roman(1), "I")
         self.assertEqual(roman(2), "II")
         self.assertEqual(roman(3), "III")
+
+    def test_negative_value(self):
+        pass
