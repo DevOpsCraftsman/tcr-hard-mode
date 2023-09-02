@@ -12,3 +12,4 @@ class TestRoman(TestCase):
 
     def test_negative_value(self):
         self.assertRaises(ValueError, roman, -1)
+        self.assertRaises(ValueError, roman, -20)
