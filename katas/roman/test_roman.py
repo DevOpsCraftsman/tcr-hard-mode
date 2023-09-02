@@ -5,4 +5,4 @@ from roman import roman
 class TestRoman(TestCase):
 
     def test_roman(self):
-        roman(0)
+        self.assertEqual(roman(0), "")
