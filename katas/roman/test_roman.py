@@ -11,4 +11,4 @@ class TestRoman(TestCase):
         self.assertEqual(roman(3), "III")
 
     def test_negative_value(self):
-        pass
+        self.assertRaises(ValueError, roman, -1)
