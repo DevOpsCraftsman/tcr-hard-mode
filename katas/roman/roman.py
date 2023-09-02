@@ -3,4 +3,3 @@ def roman(n):
         return ""
     if n == 1:
         return "I"
-    return ""
